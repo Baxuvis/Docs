@@ -48,9 +48,9 @@ So for this simple example, we would want to write a snippet of code, which woul
 
 First of all, all our pals that are part of our party are called `otomo` in this game, so we would like to find something related to that. 
 
-Aha! There's a `BP_OtomoPalHolderComponent`, which is responsible for storing your party pals, and spawning them when requested to.
+Aha! There's a `BP_OtomoPalHolderComponent`, which is responsible for storing your party pals and spawning them when requested.
 
-After looking throgh it's functions, we can find one with a signature like this:
+After looking through it's functions, we can find one with a signature like this:
 
 ```cpp
 void ActivateOtomo(int32 SlotID, FTransform StartTransform, bool& IsSuccess);
